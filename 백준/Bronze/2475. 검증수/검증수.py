@@ -1,0 +1,2 @@
+com = list(map(int, input().split()))
+print(sum(list(map(lambda x:x**2, com))) % 10)
