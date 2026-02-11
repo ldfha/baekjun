@@ -1,7 +1,10 @@
 N = int(input())
-start = '665'
-while N != 0:
-    start = str(int(start) + 1)
-    if "666" in start:
-        N-=1
-print(start)
+start = 666
+count = 0
+while True:
+    if "666" in str(start):
+        count += 1
+        if count == N:
+            print(start)
+            break
+    start += 1
